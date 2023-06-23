@@ -1,0 +1,45 @@
+#root{
+  background-color: rgb(33, 37, 41);
+}
+*{
+  background-color: rgb(0, 0, 0);
+}
+
+.transparent-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+.transparent-input:hover,
+.transparent-input:focus {
+  border-color: #3498db;
+}
+
+.search-button {
+  margin-left: 10px;
+  margin-top: 5px;
+
+}
+.button{
+  justify-content: center;
+}
+
+.logo {
+  width: 10%; /* Ajusta el tamaño pequeño del logo */
+  height: 10%;
+  border-radius: 50%; /* Hace el logo completamente redondo */
+  margin: 10px;
+} 
+
+@media (min-width: 768px) {
+  /* Estilos responsivos para el tamaño del logo en laptops y dispositivos más grandes */
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
